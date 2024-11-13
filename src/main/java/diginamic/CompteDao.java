@@ -2,7 +2,9 @@ package diginamic;
 
 import diginamic.entites.Compte;
 import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.EntityTransaction;
+import jakarta.persistence.Persistence;
 
 /**
  * Stocke les comptes en base de données
